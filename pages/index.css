@@ -261,9 +261,8 @@ input.form__checkbox {
   font-weight: 400;
 }
 
-.form__agree {
-  margin: auto;
+.form__fieldset.form__agree {
   display: flex;
-  align-items: center;
+  justify-content: center;
   padding-bottom: 120px;
 }
