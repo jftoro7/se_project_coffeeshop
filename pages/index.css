@@ -192,6 +192,7 @@
 }
 
 .reservation__form {
+  border: none;
   margin: auto;
   max-width: 385px;
 }
@@ -199,7 +200,7 @@
 .form__fieldset {
   border: none;
   padding: 0;
-  margin: 0;
+  margin: auto;
 }
 
 .form__label {
@@ -238,7 +239,7 @@
   background-color: #2f80ed;
   color: #fff;
   height: 60px;
-  width: 100%;
+  width: 385px;
   padding: 0;
   border-radius: 4px;
   transition: opacity 0.15s linear;
