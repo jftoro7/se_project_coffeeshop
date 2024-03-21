@@ -1,0 +1,74 @@
+.about {
+  background-color: #0a2850;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  z-index: 0;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.about__title {
+  margin-top: 100px;
+  margin-left: 80px;
+  max-width: 251px;
+  color: white;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  z-index: 1;
+}
+
+.about__content {
+  margin-top: 119px;
+  margin-right: 80px;
+  margin-bottom: 173px;
+  max-width: 660px;
+  color: white;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about__paragraph:first-of-type {
+  margin-top: 0;
+}
+
+.about__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+.about__circle {
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  top: -152px;
+  left: -129px;
+  z-index: 0;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.15);
+    opacity: 0;
+  }
+}
+
+.about__circle_animation_blurred {
+  transform-origin: center;
+  animation: pulsate 1.3s ease-in-out 0s infinite;
+}
