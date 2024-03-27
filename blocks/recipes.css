@@ -32,7 +32,7 @@
 }
 
 .recipes__videos {
-  margin-left: 0;
+  margin: 0;
   padding-left: 0;
   padding-top: 80px;
   display: flex;
